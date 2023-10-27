@@ -14,9 +14,15 @@ header {
 }
 
 /* typography */
+h1 {
+  font-family: 'Playfair Display SC';
+  text-align: center;
+  font-size: 64px;
+}
 
 html {
   font-family: 'helvetica neue', sans-serif;
+ 
 }
 
 thead th, tfoot th {
@@ -54,7 +60,37 @@ table {
   text-overflow: ellipsis;
 }
 
+img {
+  object-fit: scale-down;
+  width: 100%; 
+  height: 100%; 
+}
+
+
 /* Column Size for thead */
 
 
 /* Column size for tbody */
+.recipe-list th:nth-child(1){
+  width: 10%; 
+}
+.recipe-list th:nth-child(2){
+  width: 10%; 
+}
+.recipe-list th:nth-child(3){
+  width: 10%; 
+}
+.recipe-list th:nth-child(4){
+  width: 30%; 
+}
+.recipe-list th:nth-child(5){
+  width: 30%; 
+}
+.recipe-list th:nth-child(6){
+  width: 10%; 
+}
+
+
+tr:nth-child(odd) {
+background-color: #fff0c7;
+}
